@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { IconSun, IconMoon } from '@tabler/icons-react';
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
@@ -13,7 +13,7 @@ export function ThemeToggle() {
   const handleToggle = () => {
     // Add smooth transition class temporarily
     document.documentElement.classList.add('theme-transition');
-    setTheme(theme === 'dark' ? 'light' : 'dark');
+    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
     window.setTimeout(() => {
       document.documentElement.classList.remove('theme-transition');
     }, 300);
@@ -23,7 +23,7 @@ export function ThemeToggle() {
     return <div className="w-[58px] h-[22px]" />;
   }
 
-  const isDark = theme === 'dark';
+  const isDark = resolvedTheme === 'dark';
 
   return (
     <button
