@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "_profile",
+    "impact": "_judgment",
+    "experience": "_experience",
+    "education": "_education",
+    "stack": "_stack",
+    "contact": "_contact"
+  },
+  "hero": {
+    "status": "engineering profile in production",
+    "constStart": "type EngineerProfile = '{'",
+    "constEnd": "'}';",
+    "role": "role:",
+    "roleValue": "Software Engineer | Full Stack",
+    "intro": "Computer Engineer with 5 years building software for real products.",
+    "introLine2": "I design, build and evolve web systems with technical quality, business clarity and sustainable operation in mind.",
+    "ctaPrimary": "See my approach",
+    "ctaCv": "CV",
+    "ctaCoffee": "Contact",
+    "statYears": "years of experience",
+    "statScope": "design · code · operation",
+    "statLanguages": "Spanish + English B2",
+    "statTech": "applied technologies",
+    "signalTitle": "how I work",
+    "signalOne": "clear requirements",
+    "signalTwo": "maintainable architecture",
+    "signalThree": "judgment-led delivery",
+    "signalFour": "operable software",
+    "systemLabel": "business need",
+    "systemValue": "reliable product",
+    "systemMeta": "analysis -> design -> delivery -> iteration"
+  },
+  "impact": {
+    "sectionLabel": "// 01",
+    "title": "Engineering judgment",
+    "titleAlt": "/ engineering brief",
+    "subtitle": "How I think, build and sustain software in professional environments.",
+    "terminal": "cat ./value-proposition",
+    "cards": [
+      {
+        "title": "I translate business into software",
+        "text": "I turn ambiguous requirements into concrete technical decisions: data models, APIs, user flows and delivery priorities."
+      },
+      {
+        "title": "I build for maintainability",
+        "text": "I favor readable, testable and evolvable solutions. The goal is not only solving the present, but leaving a base the team can keep scaling."
+      },
+      {
+        "title": "I move product end-to-end",
+        "text": "I can contribute from UI and UX to backend, databases, integrations, automation and deployment."
+      }
+    ],
+    "proofTitle": "My edge",
+    "proofText": "I combine a Computer Engineering background with full-stack experience in real environments: I understand product, communicate with stakeholders and care about architecture.",
+    "proofKicker": "technical profile with business awareness"
+  },
+  "experience": {
+    "sectionLabel": "// 02",
+    "title": "Experience",
+    "titleAlt": "/ work",
+    "subtitle": "Teams, products and systems where I turned requirements into maintainable software.",
+    "terminal": "git log --experience",
+    "current": "current",
+    "koovra": {
+      "role": "Full Stack Developer",
+      "company": "Koovra",
+      "period": "May 2025 -> present",
+      "bullets": [
+        "Enterprise web application development with .NET Core, AngularJS and SQL Server.",
+        "Design and implementation of components, services and integrations built to scale and support operation.",
+        "Code best practices, automated testing and agile work focused on clear deliverables.",
+        "Automation and data analysis with Python to reduce manual work and improve operational decisions."
+      ]
+    },
+    "circo": {
+      "role": "Full Stack Developer",
+      "company": "Circo Studio",
+      "period": "Jan 2022 -> May 2025",
+      "bullets": [
+        "Frontend and backend development with Angular, React, .NET, Java and Python for clients across industries.",
+        "Reusable components, user flows and performance improvements for web applications.",
+        "Participation in requirements definition, technical estimates and deliverable validation with clients.",
+        "Integration with databases, APIs and external services to solve complete business processes.",
+        "Technical support in meetings, risk detection and translation of functional needs into implementation."
+      ]
+    }
+  },
+  "education": {
+    "sectionLabel": "// 03",
+    "title": "Technical education",
+    "titleAlt": "/ foundations",
+    "subtitle": "A solid academic base for better decisions in design, architecture and development.",
+    "terminal": "cat ~/credentials",
+    "graduated": "graduated",
+    "university": {
+      "degree": "Computer Engineering",
+      "institution": "Universidad Nacional de La Matanza",
+      "period": "2018 -> 2025",
+      "description": "5-year undergraduate degree focused on algorithms, data structures, software architecture, databases, requirements engineering and application development."
+    },
+    "highschool": {
+      "degree": "IT Technician",
+      "institution": "Colegio Monseñor Tomás Solari",
+      "period": "2011 -> 2018",
+      "description": "Early technical education in programming, networking, hardware and systems fundamentals, later deepened throughout university."
+    },
+    "languagesTitle": "Languages",
+    "languagesComment": "// communication",
+    "spanish": "Spanish",
+    "spanishLevel": "native",
+    "english": "English",
+    "englishLevel": "B2 · upper intermediate"
+  },
+  "stack": {
+    "sectionLabel": "// 04",
+    "title": "Stack",
+    "titleAlt": "/ toolkit",
+    "subtitle": "Technologies I use to build, integrate, automate and maintain digital products.",
+    "terminal": "~/capabilities",
+    "frontend": "frontend",
+    "backend": "backend",
+    "databases": "data",
+    "devops": "devops · cloud",
+    "ai": "artificial intelligence",
+    "aiDesc": "I use AI as a technical accelerator: automation, internal assistants, LLM-powered features and productivity improvements when they create real value."
+  },
+  "contact": {
+    "sectionLabel": "// 05",
+    "title": "Let's talk",
+    "titleAlt": "/ next step",
+    "terminal": "curl --contact",
+    "availabilityComment": "// professional contact",
+    "ctaTitle": "Let's work together",
+    "ctaText": "This portfolio summarizes how I work: technical judgment, full-stack execution and clear communication to turn business needs into reliable software.",
+    "ctaButton": "send message",
+    "labelEmail": "email",
+    "labelPhone": "phone",
+    "labelLinkedin": "linkedin",
+    "labelGithub": "github",
+    "footerLocation": "made in Buenos Aires, AR"
+  }
+}

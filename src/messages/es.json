@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "_perfil",
+    "impact": "_criterio",
+    "experience": "_experiencia",
+    "education": "_formacion",
+    "stack": "_stack",
+    "contact": "_contacto"
+  },
+  "hero": {
+    "status": "perfil de ingeniería en producción",
+    "constStart": "type EngineerProfile = '{'",
+    "constEnd": "'}';",
+    "role": "role:",
+    "roleValue": "Software Engineer | Full Stack",
+    "intro": "Ingeniero en Informática con 5 años construyendo software para productos reales.",
+    "introLine2": "Diseño, desarrollo y evoluciono sistemas web con foco en calidad técnica, claridad de negocio y operación sostenible.",
+    "ctaPrimary": "Ver mi enfoque",
+    "ctaCv": "CV",
+    "ctaCoffee": "Contacto",
+    "statYears": "años de experiencia",
+    "statScope": "diseño · código · operación",
+    "statLanguages": "español + inglés B2",
+    "statTech": "tecnologías aplicadas",
+    "signalTitle": "cómo trabajo",
+    "signalOne": "requerimientos claros",
+    "signalTwo": "arquitectura mantenible",
+    "signalThree": "entrega con criterio",
+    "signalFour": "software operable",
+    "systemLabel": "business need",
+    "systemValue": "reliable product",
+    "systemMeta": "analysis -> design -> delivery -> iteration"
+  },
+  "impact": {
+    "sectionLabel": "// 01",
+    "title": "Criterio de ingeniería",
+    "titleAlt": "/ engineering brief",
+    "subtitle": "Cómo pienso, construyo y sostengo software en entornos profesionales.",
+    "terminal": "cat ./value-proposition",
+    "cards": [
+      {
+        "title": "Traduzco negocio a software",
+        "text": "Bajo requerimientos ambiguos a decisiones técnicas concretas: modelos de datos, APIs, flujos de usuario y prioridades de entrega."
+      },
+      {
+        "title": "Construyo para mantener",
+        "text": "Prefiero soluciones legibles, testeables y evolutivas. El objetivo no es solo resolver el presente, sino dejar una base que el equipo pueda seguir escalando."
+      },
+      {
+        "title": "Muevo producto end-to-end",
+        "text": "Puedo intervenir desde UI y experiencia hasta backend, bases de datos, integraciones, automatizaciones y despliegue."
+      }
+    ],
+    "proofTitle": "Mi diferencial",
+    "proofText": "Combino formación de Ingeniería en Informática con experiencia full stack en entornos reales: entiendo el producto, converso con stakeholders y cuido la arquitectura.",
+    "proofKicker": "perfil técnico con mirada de negocio"
+  },
+  "experience": {
+    "sectionLabel": "// 02",
+    "title": "Experiencia",
+    "titleAlt": "/ work",
+    "subtitle": "Equipos, productos y sistemas donde transformé requerimientos en software mantenible.",
+    "terminal": "git log --experience",
+    "current": "actual",
+    "koovra": {
+      "role": "Full Stack Developer",
+      "company": "Koovra",
+      "period": "may 2025 -> presente",
+      "bullets": [
+        "Desarrollo de aplicaciones web empresariales con .NET Core, AngularJS y SQL Server.",
+        "Diseño e implementación de componentes, servicios e integraciones pensadas para escalar y sostener operación.",
+        "Aplicación de buenas prácticas de código, pruebas automatizadas y trabajo ágil con foco en entregables claros.",
+        "Automatización y análisis de datos con Python para reducir trabajo manual y mejorar decisiones operativas."
+      ]
+    },
+    "circo": {
+      "role": "Full Stack Developer",
+      "company": "Circo Studio",
+      "period": "ene 2022 -> may 2025",
+      "bullets": [
+        "Desarrollo frontend y backend con Angular, React, .NET, Java y Python para clientes de distintos rubros.",
+        "Construcción de componentes reutilizables, flujos de usuario y mejoras de performance en aplicaciones web.",
+        "Participación en definición de requerimientos, estimaciones técnicas y validación de entregables con clientes.",
+        "Integración con bases de datos, APIs y servicios externos para resolver procesos de negocio completos.",
+        "Acompañamiento técnico en reuniones, detección de riesgos y traducción de necesidades funcionales a implementación."
+      ]
+    }
+  },
+  "education": {
+    "sectionLabel": "// 03",
+    "title": "Formación técnica",
+    "titleAlt": "/ foundations",
+    "subtitle": "Base académica sólida para tomar mejores decisiones de diseño, arquitectura y desarrollo.",
+    "terminal": "cat ~/credentials",
+    "graduated": "graduado",
+    "university": {
+      "degree": "Ingeniería en Informática",
+      "institution": "Universidad Nacional de La Matanza",
+      "period": "2018 -> 2025",
+      "description": "Carrera de grado de 5 años con foco en algoritmos, estructuras de datos, arquitectura de software, bases de datos, ingeniería de requerimientos y desarrollo de aplicaciones."
+    },
+    "highschool": {
+      "degree": "Técnico en Informática",
+      "institution": "Colegio Monseñor Tomás Solari",
+      "period": "2011 -> 2018",
+      "description": "Formación técnica temprana en programación, redes, hardware y fundamentos de sistemas, luego profundizados durante la carrera universitaria."
+    },
+    "languagesTitle": "Idiomas",
+    "languagesComment": "// communication",
+    "spanish": "Español",
+    "spanishLevel": "nativo",
+    "english": "Inglés",
+    "englishLevel": "B2 · intermedio alto"
+  },
+  "stack": {
+    "sectionLabel": "// 04",
+    "title": "Stack",
+    "titleAlt": "/ toolkit",
+    "subtitle": "Tecnologías que uso para construir, integrar, automatizar y mantener productos digitales.",
+    "terminal": "~/capabilities",
+    "frontend": "frontend",
+    "backend": "backend",
+    "databases": "datos",
+    "devops": "devops · cloud",
+    "ai": "inteligencia artificial",
+    "aiDesc": "Uso IA como acelerador técnico: automatización, asistentes internos, features con LLMs y mejoras de productividad cuando aportan valor real."
+  },
+  "contact": {
+    "sectionLabel": "// 05",
+    "title": "Conversamos",
+    "titleAlt": "/ next step",
+    "terminal": "curl --contact",
+    "availabilityComment": "// contacto profesional",
+    "ctaTitle": "Trabajemos juntos",
+    "ctaText": "Este portfolio resume mi forma de trabajar: criterio técnico, ejecución full stack y comunicación clara para convertir necesidades de negocio en software confiable.",
+    "ctaButton": "enviar mensaje",
+    "labelEmail": "email",
+    "labelPhone": "teléfono",
+    "labelLinkedin": "linkedin",
+    "labelGithub": "github",
+    "footerLocation": "hecho en Buenos Aires, AR"
+  }
+}
