@@ -14,7 +14,7 @@ export function Providers({
   messages: AbstractIntlMessages;
 }) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <SmoothScroll>{children}</SmoothScroll>
       </NextIntlClientProvider>
