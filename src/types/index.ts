@@ -1,7 +1,7 @@
-import type { Icon } from '@tabler/icons-react';
+import type React from 'react';
 
 export interface StackCardConfig {
-  icon: typeof Icon;
+  icon: React.ComponentType<{ size?: number; className?: string; 'aria-hidden'?: string }>;
   items: string[];
   bg: string;
   border: string;
@@ -15,7 +15,7 @@ export interface StackCardConfig {
 }
 
 export interface ImpactCardConfig {
-  Icon: typeof Icon;
+  Icon: React.ComponentType<{ size?: number; 'aria-hidden'?: string }>;
   bg: string;
   border: string;
   iconBg: string;
