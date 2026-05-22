@@ -88,7 +88,7 @@
   },
   "education": {
     "sectionLabel": "// 03",
-    "title": "Formación técnica",
+    "title": "Formación",
     "titleAlt": "/ foundations",
     "subtitle": "Base académica sólida para tomar mejores decisiones de diseño, arquitectura y desarrollo.",
     "terminal": "cat ~/credentials",
