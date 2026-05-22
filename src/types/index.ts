@@ -1,7 +1,7 @@
 import type React from 'react';
 
 export interface StackCardConfig {
-  icon: React.ComponentType<{ size?: number; className?: string; 'aria-hidden'?: string }>;
+  icon: React.ElementType;
   items: string[];
   bg: string;
   border: string;
@@ -15,7 +15,7 @@ export interface StackCardConfig {
 }
 
 export interface ImpactCardConfig {
-  Icon: React.ComponentType<{ size?: number; 'aria-hidden'?: string }>;
+  Icon: React.ElementType;
   bg: string;
   border: string;
   iconBg: string;
