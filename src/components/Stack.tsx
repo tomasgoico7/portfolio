@@ -30,7 +30,7 @@ export function Stack() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
                 {STACK_CONFIGS.slice(0, 2).map((cfg) => {
                   const Icon = cfg.icon;
-                  const { icon: _icon, translationKey: _key, ...rest } = cfg;
+                  const { icon: _icon, translationKey: _key, items: _items, ...rest } = cfg;
                   return (
                     <StaggerItem key={cfg.translationKey}>
                       <StackCard
@@ -47,7 +47,7 @@ export function Stack() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
                 {STACK_CONFIGS.slice(2, 4).map((cfg) => {
                   const Icon = cfg.icon;
-                  const { icon: _icon, translationKey: _key, ...rest } = cfg;
+                  const { icon: _icon, translationKey: _key, items: _items, ...rest } = cfg;
                   return (
                     <StaggerItem key={cfg.translationKey}>
                       <StackCard
