@@ -11,10 +11,10 @@ import type { StackCardConfig, ImpactCardConfig } from '@/types';
 
 export const STACK_ITEMS = {
   frontend: ['Angular', 'React', 'Next.js', 'TypeScript', 'Tailwind', 'Bootstrap', 'CSS'],
-  backend: ['.NET Core', 'Node.js', 'Spring Boot', 'Python', 'Java'],
-  data: ['SQL Server', 'MongoDB'],
+  backend: ['.NET Core', 'Node.js', 'NestJS', 'Spring Boot', 'Python (FastAPI)', 'Java', 'Go'],
+  data: ['SQL Server', 'MongoDB', 'PostgreSQL'],
   devops: ['Docker', 'Azure', 'AWS', 'Git / GitHub'],
-  ai: ['OpenAI API', 'Anthropic Claude', 'LangChain', 'RAG', 'Prompt engineering', 'GitHub Copilot', 'Cursor', 'Vector DBs'],
+  ai: ['OpenAI API', 'LangChain', 'RAG', 'Prompt Engineering', 'GitHub Copilot', 'Cursor', 'Claude Code', 'Vector DBs'],
 };
 
 export const STACK_CONFIGS: StackCardConfig[] = [
