@@ -11,7 +11,7 @@ import type { StackCardConfig, ImpactCardConfig } from '@/types';
 
 export const STACK_ITEMS = {
   frontend: ['Angular', 'React', 'Next.js', 'TypeScript', 'Tailwind', 'Bootstrap', 'CSS'],
-  backend: ['.NET Core', 'Node.js', 'NestJS', 'Spring Boot', 'Python (FastAPI)', 'Java', 'Go'],
+  backend: ['.NET Core', 'Node.js', 'NestJS', 'Spring Boot', 'Python', 'Java', 'Go'],
   data: ['SQL Server', 'MongoDB', 'PostgreSQL'],
   devops: ['Docker', 'Azure', 'AWS', 'Git / GitHub'],
   ai: ['OpenAI API', 'LangChain', 'RAG', 'Prompt Engineering', 'GitHub Copilot', 'Cursor', 'Claude Code', 'Vector DBs'],
